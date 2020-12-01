@@ -1,0 +1,9 @@
+dataset: "segpc2021"
+n_classes: 3
+gpus: "3"
+epochs: 240
+batch_size_train: 4
+net_name: "deeplabv3plus" # unet, unetplusplus, linknet, fpn, pspnet, deeplabv3, deeplabv3plus, pan
+image_root: "/data1/lzy2020/segpc2021/"
+checkpoint_dir : "/data1/lzy2020/segpc2021/tmp/deeplabv3plus/"
+checkpoint_space : 200

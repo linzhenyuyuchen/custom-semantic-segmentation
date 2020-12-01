@@ -1,0 +1,9 @@
+dataset: "wsi"
+n_classes: 2
+gpus: "1"
+epochs: 60
+batch_size_train: 4
+net_name: "linknet" # unet, unetplusplus, linknet
+image_root: "/data3/"
+checkpoint_dir : "/data1/lzy2020/checkpoint/linknet/"
+checkpoint_space : 400
