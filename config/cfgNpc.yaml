@@ -1,0 +1,10 @@
+dataset: "npc"
+n_classes: 2
+in_channels: 1
+gpus: "1"
+epochs: 60
+batch_size_train: 4
+net_name: "unetplusplus" # unet, unetplusplus, linknet
+image_root: "/data1/lzy/npc_multi_axis/"
+checkpoint_dir : "/data1/lzy/npc_seg/checkpoint/unetplusplus/"
+checkpoint_space : 400
